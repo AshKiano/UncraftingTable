@@ -56,6 +56,8 @@ public class UncraftingTable extends JavaPlugin implements Listener, CommandExec
 
         Metrics metrics = new Metrics(this, 19550);
 
+        this.getLogger().info("Thank you for using the UncraftingTable plugin! If you enjoy using this plugin, please consider making a donation to support the development. You can donate at: https://donate.ashkiano.com");
+
         uncraftingRecipes = new HashMap<>();
 
         for (Material material : Material.values()) {
